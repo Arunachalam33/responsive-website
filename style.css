@@ -509,7 +509,10 @@ footer li{
 }
 
 @media(max-width:800px){
-    .nav-div2 a button{
+    .nav-div2 button{
+       display: none;
+    }
+    .nav-div2 a{
        display: none;
     }
 
